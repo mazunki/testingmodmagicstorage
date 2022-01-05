@@ -1,0 +1,202 @@
+﻿[01:44:23] [1/INFO] [tML]: Starting tModLoader v0.11.8.5 Linux server (01/05/2022)
+[01:44:23] [1/INFO] [tML]: Running on Mono 4.6.1
+[01:44:23] [1/INFO] [tML]: Executable: /opt/games/steam/steamapps/common/tModLoader/tModLoaderServer.exe
+[01:44:23] [1/INFO] [tML]: Working Directory: /opt/games/steam/steamapps/common/tModLoader
+[01:44:23] [1/INFO] [tML]: Launch Parameters: -autoshutdown -password poop -lang 1 -x64 -world /home/mazunki/.local/share/Terraria/ModLoader/Worlds/Mario_Carrillo.wld -modpath /home/mazunki/.local/share/Terraria/ModLoader/Mods -showserverconsole -steam -localsteamid 76561198026831962 -lobby friends
+[01:44:23] [1/WARN] [tML]: First-chance exception reporting is not implemented on Mono
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[01:44:23] [1/DEBUG] [tML]: Hook IL.Ionic.Zip.ZipEntry::ValidateOutput(string, Stream, out string) modified by Terraria
+[01:44:23] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[01:44:24] [1/INFO] [tML]: Unloading mods
+[01:44:24] [1/INFO] [tML]: Finding Mods...
+[01:44:25] [1/INFO] [tML]: Sandboxing: AutoTrash
+[01:44:25] [1/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> Mono.Cecil.Mdb, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[01:44:25] [1/INFO] [tML]: Sandboxing: BossChecklist
+[01:44:25] [1/INFO] [tML]: Sandboxing: BothEvils
+[01:44:25] [1/INFO] [tML]: Sandboxing: CalamityMod
+[01:44:26] [1/INFO] [tML]: Sandboxing: CalamityModMusic
+[01:44:26] [1/INFO] [tML]: Sandboxing: Census
+[01:44:26] [1/INFO] [tML]: Sandboxing: ThoriumMod
+[01:44:26] [1/INFO] [tML]: Sandboxing: DBZMOD
+[01:44:26] [1/INFO] [tML]: Sandboxing: dbzcalamity
+[01:44:27] [1/INFO] [tML]: Sandboxing: DisableCorruptionSpread
+[01:44:27] [1/INFO] [tML]: Sandboxing: Fargowiltas
+[01:44:27] [1/INFO] [tML]: Sandboxing: SacredTools
+[01:44:27] [1/INFO] [tML]: Sandboxing: FargowiltasSouls
+[01:44:27] [1/INFO] [tML]: Sandboxing: FargowiltasMusic
+[01:44:27] [1/INFO] [tML]: Sandboxing: FargowiltasSoulsDLC
+[01:44:27] [1/INFO] [tML]: Sandboxing: MagicStorage
+[01:44:27] [1/INFO] [tML]: Sandboxing: ItemChecklist
+[01:44:27] [1/INFO] [tML]: Sandboxing: Luiafk
+[01:44:27] [1/INFO] [tML]: Sandboxing: MaxStackExtra
+[01:44:27] [1/INFO] [tML]: Sandboxing: NoMoreTombs
+[01:44:27] [1/INFO] [tML]: Sandboxing: RecipeBrowser
+[01:44:27] [1/INFO] [tML]: Sandboxing: WingSlot
+[01:44:27] [1/INFO] [tML]: Instantiating Mods...
+[01:44:27] [1/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:27] [1/DEBUG] [tML]: Assembly Resolve: ThoriumMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+[01:44:27] [1/DEBUG] [tML]: Assembly Resolve: DBZMOD_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:28] [1/WARN] [tML]: Granted native detouring access to Fargowiltas_0
+[01:44:28] [1/DEBUG] [tML]: Hook Terraria.ModLoader.ModContent::LoadModContent(CancellationToken, Action`1) -> Fargowiltas.Fargowiltas::LoadHook(Action`2, CancellationToken, Action`1) by Fargowiltas_0
+[01:44:28] [1/DEBUG] [tML]: Hook IL.Terraria.ModLoader.ModContent::Load(CancellationToken) modified by Fargowiltas_0
+[01:44:28] [1/DEBUG] [tML]: Assembly Resolve: ItemChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:28] [1/DEBUG] [tML]: Assembly Resolve: Luiafk_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:28] [1/DEBUG] [tML]: Assembly Resolve: MaxStackExtra_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:28] [1/DEBUG] [tML]: Assembly Resolve: WingSlot_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:28] [1/INFO] [tML]: Initializing: ModLoader v0.11.8.5
+[01:44:28] [1/INFO] [tML]: Initializing: AutoTrash v0.5.2
+[01:44:29] [1/INFO] [tML]: Initializing: BossChecklist v1.1.6.1
+[01:44:29] [1/DEBUG] [tML]: Assembly Resolve: BossChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:44:29] [1/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Terraria, Version=1.3.5.1, Culture=neutral, PublicKeyToken=null
+[01:44:29] [1/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[01:44:29] [1/WARN] [tML]: Upgraded Reference MonoMod.RuntimeDetour -> Version=19.12.19.1 -> 20.11.16.1
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[01:44:29] [1/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[01:44:29] [1/INFO] [tML]: Initializing: BothEvils v3.1
+[01:44:29] [1/INFO] [tML]: Initializing: CalamityMod v1.5.0.3
+[01:44:29] [1/DEBUG] [tML]: Assembly Resolve: TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[01:44:29] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.12.19.1 -> 20.11.16.1
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Wiring::HitWireSingle(int, int) modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Hurt(PlayerDeathReason, int, int, bool, bool, bool, int) modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::DashMovement() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update_NPCCollision() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.Wiring::Teleport() added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Main::DrawInterface_40_InteractItemIcon() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.Item::AffixName() added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.Projectile::NewProjectile(float, float, float, float, int, int, float, int, float, float) added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook On.Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::QuickHeal() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::QuickMana() modified by CalamityMod_0
+[01:44:29] [1/DEBUG] [tML]: Hook IL.Terraria.Player::ItemCheck(int) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Player::AddBuff(int, int, bool) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Main::DoDraw(GameTime) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook On.Terraria.Main::SetDisplayMode(int, int, bool) added by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Main::DrawTiles(bool, int) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.GameContent.Liquid.LiquidRenderer::InternalDraw(SpriteBatch, Vector2, int, float, bool) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Main::oldDrawWater(bool, int, float) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.WaterfallManager::DrawWaterfall(SpriteBatch, int, float) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook On.Terraria.NPC::Collision_DecideFallThroughPlatforms() added by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Main::DamageVar(float) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.NPC::scaleStats() modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Projectile::Damage() modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Projectile::AI_001() modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateJumpHeight() modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by CalamityMod_0
+[01:44:30] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.Player::Update(int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.Player::UpdateManaRegen() modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::Pyramid(int, int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::MakeDungeon(int, int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::DungeonHalls(int, int, ushort, int, bool) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::GrowLivingTree(int, int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook On.Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::hardUpdateWorld(int, int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::Chlorophyte(int, int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.Item::Prefix(int) modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook On.Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.NPC::SpawnNPC() modified by CalamityMod_0
+[01:44:31] [1/DEBUG] [tML]: Hook IL.Terraria.NPC::VanillaHitEffect(int, double) modified by CalamityMod_0
+[01:44:32] [1/DEBUG] [tML]: Hook On.Terraria.Main::InitLifeBytes() added by CalamityMod_0
+[01:44:32] [1/DEBUG] [tML]: Hook IL.Terraria.NPC::NPCLoot() modified by CalamityMod_0
+[01:44:32] [1/INFO] [tML]: Initializing: CalamityModMusic v1.5.0.3
+[01:44:32] [1/INFO] [tML]: Initializing: Census v0.3.1
+[01:44:32] [1/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.5.19.1, Culture=neutral, PublicKeyToken=null
+[01:44:32] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.5.19.1 -> 20.11.16.1
+[01:44:32] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime_SpawnTownNPCs() modified by Census_0
+[01:44:32] [1/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.10.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[01:44:32] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.10.3.0 -> 0.11.3.0
+[01:44:32] [1/INFO] [tML]: Initializing: ThoriumMod v1.6.5.3
+[01:44:33] [1/DEBUG] [tML]: Hook On.Terraria.Player::ApplyDamageToNPC(NPC, int, float, int, bool) added by ThoriumMod_0
+[01:44:33] [1/DEBUG] [tML]: Hook On.Terraria.NPC::Collision_DecideFallThroughPlatforms() added by ThoriumMod_0
+[01:44:33] [1/INFO] [tML]: Initializing: DBZMOD v1.0.9.4
+[01:44:33] [1/INFO] [tML]: Initializing: dbzcalamity v0.4.3.0
+[01:44:33] [1/INFO] [tML]: Initializing: DisableCorruptionSpread v1.1.1
+[01:44:33] [1/DEBUG] [tML]: Assembly Resolve: DisableCorruptionSpread_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.5.14.1, Culture=neutral, PublicKeyToken=null
+[01:44:33] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=20.5.14.1 -> 20.11.16.1
+[01:44:33] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::hardUpdateWorld(int, int) modified by DisableCorruptionSpread_0
+[01:44:33] [1/DEBUG] [tML]: Assembly Resolve: DisableCorruptionSpread_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[01:44:33] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.11.2.0 -> 0.11.3.0
+[01:44:33] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::UpdateWorld() modified by DisableCorruptionSpread_0
+[01:44:33] [1/DEBUG] [tML]: Hook IL.Terraria.WorldGen::SmashAltar(int, int) modified by DisableCorruptionSpread_0
+[01:44:33] [1/INFO] [tML]: Initializing: SacredTools v1.1.1.4
+[01:44:33] [1/DEBUG] [tML]: Hook On.Terraria.Wiring::ActuateForced(int, int) added by SacredTools_0
+[01:44:33] [1/DEBUG] [tML]: Hook On.Terraria.Wiring::Actuate(int, int) added by SacredTools_0
+[01:44:33] [1/INFO] [tML]: Initializing: FargowiltasSouls v1.3.96.9
+[01:44:34] [1/INFO] [FargowiltasSouls]: ToggleCollections found: 4
+[01:44:34] [1/INFO] [tML]: Initializing: FargowiltasMusic v1.0.1.3
+[01:44:34] [1/INFO] [tML]: Initializing: FargowiltasSoulsDLC v0.4.1
+[01:44:34] [1/INFO] [tML]: Initializing: MagicStorage v0.4.4.0
+[01:44:34] [1/INFO] [tML]: Initializing: ItemChecklist v0.5.2
+[01:44:34] [1/INFO] [tML]: Initializing: Luiafk v1.0.0.130
+[01:44:34] [1/INFO] [tML]: Initializing: MaxStackExtra v1.1.0.4
+[01:44:34] [1/INFO] [tML]: Initializing: NoMoreTombs v1.1.2
+[01:44:34] [1/DEBUG] [tML]: Hook On.Terraria.Player::DropTombstone(int, NetworkText, int) added by NoMoreTombs_0
+[01:44:34] [1/DEBUG] [tML]: Hook IL.Terraria.Player::KillMe(PlayerDeathReason, double, int, bool) modified by NoMoreTombs_0
+[01:44:34] [1/INFO] [tML]: Initializing: RecipeBrowser v0.8.9
+[01:44:34] [1/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[01:44:34] [1/INFO] [tML]: Initializing: WingSlot v1.7.3
+[01:44:34] [1/INFO] [tML]: Initializing: Fargowiltas v2.4.2
+[01:44:35] [1/INFO] [tML]: Setting up...
+[01:44:35] [1/INFO] [tML]: Loading: ModLoader v0.11.8.5
+[01:44:35] [1/INFO] [tML]: Loading: AutoTrash v0.5.2
+[01:44:35] [1/INFO] [tML]: Loading: BossChecklist v1.1.6.1
+[01:44:35] [1/INFO] [tML]: Loading: BothEvils v3.1
+[01:44:35] [1/INFO] [tML]: Loading: CalamityMod v1.5.0.3
+[01:44:36] [1/INFO] [CalamityMod]: ModLoader version > 0.11.7.7 detected. Mechworm UUID workaround is disabled.
+[01:44:36] [1/INFO] [tML]: Loading: CalamityModMusic v1.5.0.3
+[01:44:36] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateAudio() modified by CalamityModMusic_0
+[01:44:36] [1/INFO] [tML]: Loading: Census v0.3.1
+[01:44:37] [1/INFO] [tML]: Loading: ThoriumMod v1.6.5.3
+[01:44:38] [1/INFO] [tML]: Loading: DBZMOD v1.0.9.4
+[01:44:38] [1/INFO] [tML]: Loading: dbzcalamity v0.4.3.0
+[01:44:38] [1/INFO] [tML]: Loading: DisableCorruptionSpread v1.1.1
+[01:44:38] [1/INFO] [tML]: Loading: SacredTools v1.1.1.4
+[01:44:38] [1/INFO] [tML]: Loading: FargowiltasSouls v1.3.96.9
+[01:44:39] [1/INFO] [tML]: Loading: FargowiltasMusic v1.0.1.3
+[01:44:39] [1/INFO] [tML]: Loading: FargowiltasSoulsDLC v0.4.1
+[01:44:39] [1/INFO] [tML]: Loading: MagicStorage v0.4.4.0
+[01:44:39] [1/INFO] [tML]: Loading: ItemChecklist v0.5.2
+[01:44:39] [1/INFO] [tML]: Loading: Luiafk v1.0.0.130
+[01:44:39] [1/INFO] [tML]: Loading: MaxStackExtra v1.1.0.4
+[01:44:39] [1/INFO] [tML]: Loading: NoMoreTombs v1.1.2
+[01:44:39] [1/INFO] [tML]: Loading: RecipeBrowser v0.8.9
+[01:44:40] [1/INFO] [tML]: Loading: WingSlot v1.7.3
+[01:44:40] [1/INFO] [tML]: Loading: Fargowiltas v2.4.2
+[01:44:40] [1/INFO] [tML]: RAM usage: 658.9 MB
+[01:44:40] [1/INFO] [tML]: Adding Recipes...
+[01:44:41] [Threadpool worker/INFO] [Terraria]: Loading World: Mario Carrillo, IsCloud=False
+[01:44:41] [Threadpool worker/INFO] [StatusText]: Resetting game objects
+[01:44:44] [Threadpool worker/INFO] [StatusText]: Loading world data
+[01:44:45] [Threadpool worker/INFO] [StatusText]: Settling liquids
+[01:44:46] [Threadpool worker/INFO] [Terraria]: 127.0.0.1:56896 is connecting...
+[01:44:46] [1/INFO] [Terraria]: Running one update...
+[01:44:46] [1/INFO] [tML]: Server starting with AllowVanillaClients set to False
+[01:44:46] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[01:44:47] [Threadpool worker/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:44:47] [Threadpool worker/DEBUG] [tML]: Assembly Resolve: Terraria, Version=1.3.5.3, Culture=neutral, PublicKeyToken=null -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[01:44:47] [Threadpool worker/INFO] [Terraria]: JIT loading finished
+[01:44:48] [1/INFO] [Terraria]: Listening on port 7777
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config AutoTrash AutoTrashServerConfig: {}
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config BothEvils BothEvilsConfig: {}
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config ThoriumMod ThoriumConfigServer: {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config MaxStackExtra MaxStackExtraConfig: {}
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config NoMoreTombs Configuration: {}
+[01:44:48] [1/INFO] [Terraria]: Sending Server Config Fargowiltas FargoConfig: {"Christmas":true,"UnlimitedPotionBuffsOn120":false}
+[01:44:51] [1/INFO] [Terraria]: mazunki has joined.
+[01:45:14] [1/INFO] [Terraria]: mazunki has left.
+[01:45:14] [1/INFO] [Terraria]: Local player left. Autoshutdown starting.
+[01:45:14] [1/INFO] [StatusText]: Saving world data
+[01:45:14] [1/INFO] [StatusText]: Validating world save
+[01:45:16] [9/INFO] [StatusText]: Saving world data
+[01:45:16] [9/INFO] [StatusText]: Validating world save
